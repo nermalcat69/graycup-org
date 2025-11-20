@@ -82,9 +82,10 @@ export function Navbar() {
               src="/logo.svg"
               alt="Gray Cup"
               draggable={false}
-              width={50}
-              height={50}
+              width={45}
+              height={45}
             />
+            <p className="font-semibold text-neutral-900 text-2xl">Gray Cup</p>
           </Link>
           <nav className="hidden font-medium text-lg md:flex pl-3 gap-1">
             <Link
