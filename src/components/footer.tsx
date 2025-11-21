@@ -39,8 +39,8 @@ export default function Footer() {
             </ul>
           </div>
           <div>
-            <h4 className="font-semibold text-lg mb-4">Links</h4>
-            <ul className="space-y-2 text-md">
+            <h4 className="font-semibold text-md mb-2">Socials</h4>
+            <ul className="space-y-2 text-sm">
               <li>
                 <Link
                   href="https://x.com/Gray CupAI"
@@ -52,7 +52,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="https://github.com/Gray CupAI"
+                  href="https://github.com/Gray-Cup"
                   target="_blank"
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
@@ -60,7 +60,16 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link
+              <Link
+                  href="https://discord.gg/gpRxmW63JW"
+                  target="_blank"
+                  className="text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  Discord
+                </Link>
+              </li>
+              <li>
+              <Link
                   href="https://cal.com/arjunaditya/30min?user=arjunaditya"
                   target="_blank"
                   className="text-muted-foreground hover:text-foreground transition-colors"

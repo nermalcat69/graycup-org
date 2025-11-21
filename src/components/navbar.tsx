@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -77,36 +78,48 @@ export function Navbar() {
     <header className="w-full py-2 bg-white border-b border-neutral-200">
       <div className="flex h-14 items-center justify-between max-w-7xl mx-auto px-4 lg:px-6">
         <div className="flex items-center gap-6">
-          <Link href="/" className="font-normal flex items-center gap-4">
-            <img
+          <Link href="/" className="font-normal flex items-center gap-3">
+            <Image
               src="/logo.svg"
               alt="Gray Cup"
               draggable={false}
               width={45}
               height={45}
             />
-            <p className="font-semibold text-neutral-900 text-2xl">Gray Cup</p>
+            <p className="font-semibold text-neutral-900 text-xl tracking-tight">Gray Cup</p>
           </Link>
-          <nav className="hidden font-medium text-lg md:flex pl-3 gap-1">
+          <nav className="hidden font-medium text-md md:flex pl-3 gap-1">
             <Link
               href="/pricing"
               className="circular rounded-md px-3 py-2 text-neutral-800"
             >
-              Pricing
+              Culture
             </Link>
             <Link
               href="/blog"
               className="circular rounded-md px-3 py-2 text-neutral-800"
             >
-              Blog
+              Newsroom
             </Link>
             <a
-              href="https://docs.graycup.org"
+              href="/impact"
               target="_blank"
               className="circular rounded-md px-3 py-2 text-neutral-800"
             >
-              Docs
+              Our Impact
             </a>
+            <Link
+              href="/social-responsibility"
+              className="circular rounded-md px-3 py-2 text-neutral-800"
+            >
+            Social Responsibility
+            </Link>
+            <Link
+              href="/about"
+              className="circular rounded-md px-3 py-2 text-neutral-800"
+            >
+              Careers
+            </Link>
             <Link
               href="/about"
               className="circular rounded-md px-3 py-2 text-neutral-800"
