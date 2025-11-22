@@ -124,7 +124,8 @@ export default function PricingPage() {
             Contact Gray Cup
           </h1>
           <p className="text-lg text-muted-foreground">
-          Your message matters.
+          Have a question or you want to do business with Gray Cup? There is always a way to reach us.
+          <br />Your message matters. 
           </p>
         </div>
 
@@ -167,7 +168,7 @@ export default function PricingPage() {
             </Card>
           </div>
           <div className="flex-col sm:flex-row flex-wrap hidden lg:flex items-center py-4 gap-4 justify-center">
-            <Image src="/coffee-beans.webp" alt="coffee beans" width="280" height="200" />
+            <Image src="/coffee-beans.webp" draggable="false" alt="coffee beans" width="280" height="200" />
           </div>
 
           <div className="max-w-sm w-full ">
@@ -208,7 +209,14 @@ export default function PricingPage() {
             </Card>
           </div>
         </div>
-
+        <div className="flex justify-between py-4">
+        <div className="flex-col sm:flex-row flex-wrap hidden lg:flex items-center gap-4 justify-start">
+            <Image src="/tea-leaves.svg" draggable="false" alt="coffee beans" width="160" height="160" />
+          </div>
+          <div className="flex-col sm:flex-row flex-wrap hidden lg:flex items-center gap-4 justify-end">
+            <Image src="/tea-leaves.svg" draggable="false" alt="coffee beans" width="160" height="160" />
+          </div>
+        </div>
         <div className="max-w-6xl mx-auto mt-10">
           {/* Wrapper must be relative so overlay positions correctly */}
           <div className="relative">
