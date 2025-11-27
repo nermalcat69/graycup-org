@@ -289,7 +289,7 @@ export default function PricingPage() {
         <h2 className="text-2xl md:text-3xl font-medium text-neutral-800 my-4">
           Notable People
         </h2>
-        <div className="grid grid-cols-4">
+        <div className="grid grid-cols-4 gap-4 my-10">
           <div className="flex flex-col">
             <Image
               src="/arjun.png"
@@ -297,7 +297,7 @@ export default function PricingPage() {
               height="200"
               width="200"
             />
-            <p className="text-lg font-medium py-2 bg-neutral-500">
+            <p className="text-lg max-w-fit font-medium py-2 ">
               Arjun Aditya
             </p>
           </div>
