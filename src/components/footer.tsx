@@ -92,27 +92,6 @@ export default function Footer() {
             </ul>
             </div>
           </div>
-          {/* <div>
-              <h4 className="font-medium mb-4">Information</h4>
-              <ul className="space-y-2 text-sm">
-                <li>
-                  <Link
-                    href="/privacy"
-                    className="text-muted-foreground hover:text-foreground transition-colors"
-                  >
-                    Privacy & Security
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/terms"
-                    className="text-muted-foreground hover:text-foreground transition-colors"
-                  >
-                    Terms of Service
-                  </Link>
-                </li>
-              </ul>
-            </div> */}
         </div>
         <div className="mt-10 pt-6 border-t border-border text-center text-sm text-muted-foreground">
           <p>© {new Date().getFullYear()} Gray Cup. All rights reserved.</p>

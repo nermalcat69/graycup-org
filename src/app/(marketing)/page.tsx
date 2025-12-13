@@ -140,6 +140,10 @@ export default function Home() {
     </div>
     <CoffeeSection />
 
+    <div className="pt-10 pb-20 max-w-6xl mx-auto md:pb-0 flex flex-col justify-center">
+      <h2 className="text-2xl font-medium">Where you can see our Products</h2>
+      <Image src="/available-amazon.png" alt="available on amazon" width="110" height="110" className="mb-20" />
+    </div>
     </div>
 
   );
