@@ -43,7 +43,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <Link
-                  href="https://x.com/Gray CupAI"
+                  href="https://x.com/TheGrayCup"
                   target="_blank"
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
