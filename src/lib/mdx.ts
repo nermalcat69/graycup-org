@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 
-interface BlogPost {
+interface NewsroomPost {
   slug: string;
   title: string;
   description: string;
@@ -33,21 +33,21 @@ interface CaseStudy {
   content: string;
 }
 
-export async function getBlogPosts(): Promise<BlogPost[]> {
+export async function getNewsroomPosts(): Promise<NewsroomPost[]> {
   try {
-    const blogDir = path.join(process.cwd(), "content/blog");
+    const newsroomDir = path.join(process.cwd(), "content/newsroom");
 
-    if (!fs.existsSync(blogDir)) {
-      console.log("Blog posts directory not found, returning empty array");
+    if (!fs.existsSync(newsroomDir)) {
+      console.log("Newsroom posts directory not found, returning empty array");
       return [];
     }
 
-    const files = fs.readdirSync(blogDir);
+    const files = fs.readdirSync(newsroomDir);
     const posts = files
       .filter((file) => file.endsWith(".mdx"))
       .map((file) => {
         const slug = file.replace(".mdx", "");
-        const filePath = path.join(blogDir, file);
+        const filePath = path.join(newsroomDir, file);
         const fileContent = fs.readFileSync(filePath, "utf8");
         const { data, content } = matter(fileContent);
 
@@ -69,14 +69,14 @@ export async function getBlogPosts(): Promise<BlogPost[]> {
 
     return posts;
   } catch (error) {
-    console.error("Error reading blog posts:", error);
+    console.error("Error reading newsroom posts:", error);
     return [];
   }
 }
 
-export function getBlogPost(slug: string): BlogPost | null {
-  const blogDir = path.join(process.cwd(), "content/blog");
-  const filePath = path.join(blogDir, `${slug}.mdx`);
+export function getNewsroomPost(slug: string): NewsroomPost | null {
+  const newsroomDir = path.join(process.cwd(), "content/newsroom");
+  const filePath = path.join(newsroomDir, `${slug}.mdx`);
 
   if (!fs.existsSync(filePath)) {
     return null;
@@ -90,9 +90,9 @@ export function getBlogPost(slug: string): BlogPost | null {
       slug,
       content,
       ...data,
-    } as BlogPost;
+    } as NewsroomPost;
   } catch (error) {
-    console.error(`Error loading blog post ${slug}:`, error);
+    console.error(`Error loading newsroom post ${slug}:`, error);
     return null;
   }
 }
@@ -149,10 +149,10 @@ export function getCaseStudy(slug: string): CaseStudy | null {
   }
 }
 
-export function getAllSlugs(type: "blog" | "case-studies"): string[] {
+export function getAllSlugs(type: "newsroom" | "case-studies"): string[] {
   const directory =
-    type === "blog"
-      ? path.join(process.cwd(), "content/blog")
+    type === "newsroom"
+      ? path.join(process.cwd(), "content/newsroom")
       : path.join(process.cwd(), "content/case-studies");
 
   try {

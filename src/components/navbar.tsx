@@ -98,7 +98,7 @@ export function Navbar() {
               Culture
             </Link>
             <Link
-              href="/blog"
+              href="/newsroom"
               className="circular rounded-md px-3 py-2 text-neutral-800"
             >
               Newsroom

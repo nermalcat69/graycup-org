@@ -7,7 +7,7 @@ export const Review = () => (
     <p className="max-w-3xl text-balance font-semibold text-lg tracking-tight sm:text-xl">
       &ldquo;A production-grade, monorepo-first, full stack Next.js template.
       Very thoughtfully engineered and documented. Covers auth, payments, docs,
-      blog, o11y, analytics, emails, and even feature flags & dark mode.&rdquo;
+      newsroom, o11y, analytics, emails, and even feature flags & dark mode.&rdquo;
     </p>
     <div className="flex items-center justify-between gap-4 mt-4">
       <div className="flex items-center gap-2">

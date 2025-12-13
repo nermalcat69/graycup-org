@@ -1,4 +1,4 @@
-import { getBlogPost, getAllSlugs } from "@/lib/mdx";
+import { getNewsroomPost, getAllSlugs } from "@/lib/mdx";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
@@ -10,33 +10,33 @@ import remarkGfm from "remark-gfm";
 import rehypeHighlight from "rehype-highlight";
 import "highlight.js/styles/github-dark.css";
 
-interface BlogPostPageProps {
+interface NewsroomPostPageProps {
   params: Promise<{
     slug: string;
   }>;
 }
 
-// Generate static params for all blog posts
+// Generate static params for all newsroom posts
 export async function generateStaticParams() {
-  const slugs = getAllSlugs("blog");
+  const slugs = getAllSlugs("newsroom");
   return slugs.map((slug: string) => ({ slug }));
 }
 
 // Generate metadata for SEO
 export async function generateMetadata({
   params,
-}: BlogPostPageProps): Promise<Metadata> {
+}: NewsroomPostPageProps): Promise<Metadata> {
   const { slug } = await params;
-  const post = getBlogPost(slug);
+  const post = getNewsroomPost(slug);
 
   if (!post) {
     return {
-      title: "Blog Post Not Found",
+      title: "Newsroom Post Not Found",
     };
   }
 
   return {
-    title: `${post.title} | Blog`,
+    title: `${post.title} | Newsroom`,
     description: post.description,
     keywords: post.tags?.join(", "),
     authors: post.author ? [{ name: post.author }] : undefined,
@@ -58,9 +58,9 @@ export async function generateMetadata({
 
 // Custom MDX components
 
-export default async function BlogPostPage({ params }: BlogPostPageProps) {
+export default async function NewsroomPostPage({ params }: NewsroomPostPageProps) {
   const { slug } = await params;
-  const post = getBlogPost(slug);
+  const post = getNewsroomPost(slug);
 
   if (!post) {
     notFound();
@@ -72,10 +72,10 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     <div className="max-w-4xl mx-auto px-4 lg:px-6 py-12">
       {/* Back Navigation */}
       <div className="mb-8">
-        <Link href="/blog">
+        <Link href="/newsroom">
           <Button variant="ghost" size="sm">
             <ArrowLeft className="mr-2 h-4 w-4" />
-            Back to Blog
+            Back to Newsroom
           </Button>
         </Link>
       </div>
@@ -161,7 +161,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       <section className="mt-16">
         <h3 className="text-2xl font-semibold mb-6">Continue Reading</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <Link href="/blog" className="group">
+          <Link href="/newsroom" className="group">
             <div className="p-6 border rounded-lg hover:shadow-md transition-shadow">
               <h4 className="font-semibold mb-2 group-hover:text-primary transition-colors">
                 Explore All Articles
