@@ -55,6 +55,15 @@ export default function AboutPage() {
             <br />
             <span className="font-semibold">UPI ID</span>: graycup@kotak
           </p>
+
+          <h3 className="text-lg md:text-xl font-semibold text-neutral-800 mt-4 mb-2">
+            Other Sites
+        </h3>
+        <p><span className="font-semibold">Online Store for Consumers</span>: <a href="https://graycup.in/" className="link" target="_blank">graycup.in</a>(India Only)</p>
+        <p><span className="font-semibold">Online Store for Businesses</span>: <a href="https://b2b.graycup.in/" className="link" target="_blank">b2b.graycup.in</a>(Worldwide)</p>
+        <p><span className="font-semibold">IndiaMart</span>: <a href="https://www.indiamart.com/gray-cup-enterprises/" className="link" target="_blank">indiamart.com/gray-cup-enterprises</a></p>
+
+        
         </div>
         <hr className="my-8" />
 
@@ -121,6 +130,7 @@ export default function AboutPage() {
                 <IoIosMail size={20} />
               </Link>
             </div>
+<a className="mt-4 mb-2" href="https://cal.com/arjunaditya/30min?user=arjunaditya" target="_blank"><Button variant="lightgraybg" size="minor">Schedule Call</Button></a>
           </div>
           {/* <div>
             <Image

@@ -247,3 +247,8 @@ iframe {
 textarea {
   resize: none;
 }
+
+.link {
+  text-decoration: underline;
+  color: var(--color-blue-600);
+}
