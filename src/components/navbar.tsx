@@ -105,7 +105,6 @@ export function Navbar() {
             </Link>
             <a
               href="/impact"
-              target="_blank"
               className="circular rounded-md px-3 py-2 text-neutral-800"
             >
               Our Impact

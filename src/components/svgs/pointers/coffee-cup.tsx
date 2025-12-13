@@ -1,4 +1,4 @@
-export function PRIssues() {
+export function CoffeeCup() {
   return (
     <svg
       className="max-w-md p-4"

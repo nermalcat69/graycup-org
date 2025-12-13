@@ -13,10 +13,11 @@ import {
   ProductIssue,
   CustomerCalls,
   ProductPrBottomLeft,
-  PRIssues,
+  CoffeeCup,
 } from "@/components/svgs";
 import { CustomerHero } from "@/components/svgs/customer-hero";
 import Image from "next/image";
+import { CoffeeSection } from "@/components/coffee-section";
 
 export default function Home() {
   const [mounted, setMounted] = useState(false);
@@ -64,7 +65,7 @@ export default function Home() {
             <div className="flex relative mt-10 flex-col max:smml-4 ">
               <div>
                 <a href="/contact" target="_blank">
-                  <Button variant="blue" size="lg" className="">
+                  <Button variant="blue" size="sm" className="">
                     Contact Us
                   </Button>
                 </a>
@@ -74,7 +75,7 @@ export default function Home() {
 
           {/* Right Column */}
           <div className="hidden lg:block">
-            <Image src="/hero-side.png" alt="coffee beans" width={500} height={500} />
+            <Image src="/hero-side.png" alt="coffee beans" className="rotate-40 " draggable="false" width={300} height={300} />
           </div>
         </div>
 
@@ -85,7 +86,7 @@ export default function Home() {
         <div className="my-20 flex flex-col md:items-center px-6 py-10 md:py-20 bg-neutral-50 md:grid md:grid-cols-[70%_30%]">
           <div>
             <div className="block md:hidden max-md:pb-5">
-              <PRIssues />
+              <CoffeeCup />
             </div>
             <h2 className="text-2xl sm:text-5xl font-medium text-neutral-900 mb-6 font-instrument-sans">
               Gray Cup Narrative
@@ -100,156 +101,18 @@ export default function Home() {
             </p>
           </div>
           <div className="hidden md:block">
-            <PRIssues />
+            <CoffeeCup />
           </div>
           <a href="https://discord.gg/gpRxmW63JW" target="_blank">
             <Button variant="gray">Join Our Discord</Button>
           </a>
         </div>
 
-        <div className="flex flex-col items-center justify-center min-h-screen my-10">
-          <h2 className="text-3xl font-semibold text-neutral-900 mb-6 flex justify-center flex-row items-center gap-4 font-instrument-sans">
-            External & Internal Agents → KnowledgeBase
-          </h2>
-          <div className="flex-col sm:flex-row flex-wrap hidden lg:flex items-center py-4 gap-4 justify-center">
-            <Button variant="default" size="lg">
-              Build Your Survey
-            </Button>
-            <Button variant="blue" size="lg">
-              Visual Bug Reporting in IDE
-            </Button>
-            <Button variant="red" size="lg">
-              Web Customer Agents
-            </Button>
-            <Button variant="default" size="lg">
-              Discord Customer Bot
-            </Button>
-            <Button variant="red" size="lg">
-              Slack Scraper Agent
-            </Button>
-            <Button variant="blue" size="lg">
-              Run Surveys & Deep Research
-            </Button>
-            <Button variant="default" size="lg">
-              Web Search Subreddits
-            </Button>
-            <Button variant="red" size="lg">
-              Discord Scraper Agent
-            </Button>
-            <Button variant="blue" size="lg">
-              IDE Customer Agents
-            </Button>
-            <Button variant="red" size="lg">
-              Transcribe & Analyze Customer Calls
-            </Button>
-            <Button variant="blue" size="lg">
-              Customer Feedback Classification
-            </Button>
-            <Button variant="red" size="lg">
-              Automatically Trigger Issues
-            </Button>
-            <Button variant="blue" size="lg">
-              Integrate with Zapier, Airtable, Notion, Github, Gitlab, Jira,
-              etc.
-            </Button>
-            <Button variant="default" size="lg">
-              Advanced Mail Client
-            </Button>
-            <Button variant="red" size="lg">
-              Customer Knowledge Base
-            </Button>
-            <Button variant="default" size="lg">
-              Internal Knowledge Base
-            </Button>
-            <Button variant="red" size="lg">
-              Create A Roadmap Page
-            </Button>
-            <Button variant="blue" size="lg">
-              Create a Help & Support Page
-            </Button>
-            <Button variant="red" size="lg">
-              Screen Record The Bug using Widget
-            </Button>
-            <Button variant="blue" size="lg">
-              Component Behavior Reporting via Web
-            </Button>
-            <Button variant="blue" size="lg">
-              Whatsapp & Instagram Agents
-            </Button>
-          </div>
-        </div>
-        {/* <p className="text-center text-sm text-muted-foreground">would love to buy coldrun.ai but it's costly. ps: this platform is work in progress</p> */}
+        {/* <Image src="/beans-circle.webp" alt="coffee beans" className="pl-2" width={200} height={200} /> */}
+
+<CoffeeSection />
+
       </div>
-
-      <div className="py-8">
-        <h2 className="text-2xl font-semibold text-neutral-900 mb-6">
-          Currently We are in Beta.
-        </h2>
-        {/* <div className="grid md:grid-cols-2 gap-4 mb-6">
-              <div className="border border-neutral-200 p-4 rounded-lg bg-white">
-                <h3 className="text-lg font-medium text-neutral-900 mb-3">
-                  Customer Intelligence
-                </h3>
-                <ul className="space-y-2 text-sm text-neutral-600">
-                  <li>• Auto-classify messages into bugs, features & feedback</li>
-                  <li>• Use our Email client and scan for customer pain point analysis and save into knowledge base.</li>
-                  <li>• Zoom & Google Meet call recording with insights</li>
-                  <li>• Scrape Discord, Reddit, Slack & forums for competitor insights</li>
-                </ul>
-              </div>
-
-              <div className="border border-neutral-200 p-4 rounded-lg bg-white">
-                <h3 className="text-lg font-medium text-neutral-900 mb-3">
-                  AI Support Agents
-                </h3>
-                <ul className="space-y-2 text-sm text-neutral-600">
-                  <li>• Client-facing agent with memory & knowledge graph</li>
-                  <li>• Web search API for real-time answers</li>
-                  <li>• Dashboard agent with organized data intelligence</li>
-                  <li>• Vector DB & knowledge graph powered responses</li>
-                </ul>
-              </div>
-
-              <div className="border border-neutral-200 p-4 rounded-lg bg-white">
-                <h3 className="text-lg font-medium text-neutral-900 mb-3">
-                  Community & Feedback
-                </h3>
-                <ul className="space-y-2 text-sm text-neutral-600">
-                  <li>• Feature voting like feedback.ycombinator.com</li>
-                  <li>• Integrated support & roadmap management</li>
-                  <li>• Waitlist pages with survey forms & deep research</li>
-                  <li>• Auto-convert bugs to GitHub issues</li>
-                </ul>
-              </div>
-
-              <div className="border border-neutral-200 p-4 rounded-lg bg-white">
-                <h3 className="text-lg font-medium text-neutral-900 mb-3">
-                  Native Integrations
-                </h3>
-                <ul className="space-y-2 text-sm text-neutral-600">
-                  <li>• Discord, Slack, Zoom, Notion, Airtable</li>
-                  <li>• Intercom, Stripe, Segment, GitHub</li>
-                  <li>• Zapier, Twilio for workflow automation</li>
-                  <li>• Free tier & startup credits available</li>
-                </ul>
-              </div>
-            </div> */}
-      </div>
-      {/* <div className="mx-4 mt-10 my-2">
-        <div className="relative w-full max-w-5xl aspect-[10/3] rounded-2xl mx-auto overflow-hidden">
-          <Image
-            src="/gradient-2.png"
-            alt="Kite"
-            width={800}
-            height={450}
-            draggable={false}
-            className="rounded-xl select-none brightness-75 object-cover w-full h-full"
-          />
-          <h1 className="absolute bottom-0 font-mono lg:right-1/4 transform translate-x-1/4 md:translate-x-1/2 -translate-y-1/2 text-white text-2xl md:text-3xl font-bold text-center z-10 whitespace-nowrap">
-            Treat. Customers. Better.
-          </h1>
-        </div> */}
-      {/* </div> */}
     </div>
   );
 }
