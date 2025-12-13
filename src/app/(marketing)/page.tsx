@@ -63,12 +63,27 @@ export default function Home() {
             </div>
 
             <div className="flex relative mt-10 flex-col max:smml-4 ">
-              <div>
+              <div className="flex flex-row gap-4">
                 <a href="/contact" target="_blank">
-                  <Button variant="blue" size="sm" className="">
+                  <Button variant="lightgray" size="sm" className="">
                     Contact Us
                   </Button>
                 </a>
+                <a
+              href="https://graycup.in/"
+              target="_blank"
+              rel="dofollow noopener"
+              id="sign-in-link"
+            >
+              <Button variant="default" size="sm">
+                Visit Store{" "}
+                <kbd
+                  className="max-sm:hidden font-medium text-[11px] px-1.5 py-0.5 rounded-sm border border-neutral-700 bg-neutral-800 cursor-pointer"
+                >
+                  India
+                </kbd>
+              </Button>
+            </a>
               </div>
             </div>
           </div>
