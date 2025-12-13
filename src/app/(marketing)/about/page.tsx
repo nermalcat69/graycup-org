@@ -57,26 +57,51 @@ export default function AboutPage() {
               Arjun Aditya (Director)
             </p>
             <p className="text-xs text-nowrap text-muted-foreground mt-0.5 mb-4">
-             A Homo Sapien who loves nature,<br /> code and design.
+              A Homo Sapien who loves nature,
+              <br /> code and design.
             </p>
             <div className="flex items-center gap-3">
-              <Link className="opacity-75 hover:opacity-100 transition-opacity" target="_blank" href="https://arjunaditya.xyz">
+              <Link
+                className="opacity-75 hover:opacity-100 transition-opacity"
+                target="_blank"
+                href="https://arjunaditya.xyz"
+              >
                 <FaGlobeAsia size={18} />
               </Link>
-              <Link className="opacity-75 hover:opacity-100 transition-opacity" target="_blank" href="https://github.com/nermalcat69">
+              <Link
+                className="opacity-75 hover:opacity-100 transition-opacity"
+                target="_blank"
+                href="https://github.com/nermalcat69"
+              >
                 <FaGithub size={18} />
               </Link>
-              <Link className="opacity-75 hover:opacity-100 transition-opacity" target="_blank" href="https://www.linkedin.com/in/nermalcat69/">
+              <Link
+                className="opacity-75 hover:opacity-100 transition-opacity"
+                target="_blank"
+                href="https://www.linkedin.com/in/nermalcat69/"
+              >
                 <FaLinkedin size={18} />
               </Link>
-              <Link className="opacity-75 hover:opacity-100 transition-opacity" target="_blank" href="https://x.com/arjunaditya_">
+              <Link
+                className="opacity-75 hover:opacity-100 transition-opacity"
+                target="_blank"
+                href="https://x.com/arjunaditya_"
+              >
                 <FaXTwitter size={18} />
               </Link>
-              <Link className="opacity-75 hover:opacity-100 transition-opacity" target="_blank" href="https://instagram.com/arjun_sustains">
-              <FaInstagram size={18} />
+              <Link
+                className="opacity-75 hover:opacity-100 transition-opacity"
+                target="_blank"
+                href="https://instagram.com/arjun_sustains"
+              >
+                <FaInstagram size={18} />
               </Link>
-              <Link className="opacity-75 hover:opacity-100 transition-opacity" target="_blank" href="mailto:arjunaditya@icloud.com">
-              <IoIosMail size={20} />
+              <Link
+                className="opacity-75 hover:opacity-100 transition-opacity"
+                target="_blank"
+                href="mailto:arjunaditya@icloud.com"
+              >
+                <IoIosMail size={20} />
               </Link>
             </div>
           </div>

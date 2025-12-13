@@ -75,7 +75,14 @@ export default function Home() {
 
           {/* Right Column */}
           <div className="hidden lg:block">
-            <Image src="/hero-side.png" alt="coffee beans" className="rotate-40 " draggable="false" width={300} height={300} />
+            <Image
+              src="/hero-side.png"
+              alt="coffee beans"
+              className="rotate-40 "
+              draggable="false"
+              width={300}
+              height={300}
+            />
           </div>
         </div>
 
@@ -110,8 +117,7 @@ export default function Home() {
 
         {/* <Image src="/beans-circle.webp" alt="coffee beans" className="pl-2" width={200} height={200} /> */}
 
-<CoffeeSection />
-
+        <CoffeeSection />
       </div>
     </div>
   );

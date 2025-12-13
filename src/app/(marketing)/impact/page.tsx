@@ -159,7 +159,6 @@ export default function PricingPage() {
             What are we? Who Started this? Started why?
           </p>
         </div>
-
       </div>
     </div>
   );

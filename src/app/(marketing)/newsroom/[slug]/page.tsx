@@ -58,7 +58,9 @@ export async function generateMetadata({
 
 // Custom MDX components
 
-export default async function NewsroomPostPage({ params }: NewsroomPostPageProps) {
+export default async function NewsroomPostPage({
+  params,
+}: NewsroomPostPageProps) {
   const { slug } = await params;
   const post = getNewsroomPost(slug);
 
