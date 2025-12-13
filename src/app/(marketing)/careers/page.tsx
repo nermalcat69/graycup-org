@@ -1,0 +1,25 @@
+"use client";
+
+import Image from "next/image";
+import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
+
+
+/* ---------- Page ---------- */
+export default function CareersPage() {
+
+  return (
+    <div className="min-h-screen py-20">
+      <div className="max-w-7xl mx-auto px-4 lg:px-6">
+        <div className="text-start mb-16">
+          <h1 className="text-4xl md:text-5xl font-semibold text-black mb-4">
+            Careers at Gray Cup
+          </h1>
+          <p className="text-lg text-muted-foreground">
+            What are we? Who Started this? Started why?
+          </p>
+        </div>
+
+      </div>
+    </div>
+  );
+}

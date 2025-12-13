@@ -116,7 +116,7 @@ export function Navbar() {
               Social Responsibility
             </Link>
             <Link
-              href="/about"
+              href="/careers"
               className="circular rounded-md px-3 py-2 text-neutral-800"
             >
               Careers

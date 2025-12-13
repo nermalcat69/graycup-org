@@ -5,16 +5,7 @@ export default function Footer() {
   return (
     <footer className="border-t border-neutral-200 bg-white">
       <div className="max-w-7xl mx-auto px-4 lg:px-6 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          <div>
-            <GrayCupLogo className="w-12 h-12 animate-fadeIn delay-0" />
-            <h3 className="font-semibold text-lg mb-1.5 mt-4">Gray Cup</h3>
-            <p className="text-muted-foreground text-sm">
-              Perfect Combination of Scanning, Customer Experience and Knowledge
-              Base.
-              <br />
-            </p>
-          </div>
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 ">
           <div>
             <h4 className="font-semibold text-md mb-4">Main</h4>
             <ul className="space-y-2 text-sm">
