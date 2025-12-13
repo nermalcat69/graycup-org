@@ -11,8 +11,8 @@ export function CoffeeSection() {
         </div>
         <div className="flex flex-row bg-indigo-50">
           <h3 className="text-sm xs:text-md sm:text-lg md:text-xl lg:text-2xl text-orange-950 font-semibold font-instrument-sans py-4 md:py-8 px-5 md:px-6">
-            Quality Coffee <br /> Beans for
-            <br /> Everyone
+            Quality <br /> Coffee Beans 
+            <br /> for You
           </h3>
         </div>
         <div className="flex flex-row sm:rounded-tr-2xl z-30 bg-fuchsia-200">
@@ -51,13 +51,13 @@ export function CoffeeSection() {
         </div>
         <div className="flex flex-row bg-neutral-100 z-30">
           <h3 className="text-sm xs:text-md sm:text-lg md:text-xl lg:text-2xl text-orange-950 font-semibold font-instrument-sans py-4 md:py-8 px-5 md:px-6">
-            Roasted Carefully <br /> with <br />
+            Roasted <br /> with <br />
             Consistency
           </h3>
         </div>
         <div className="flex flex-row sm:rounded-r-2xl bg-green-200 z-30">
           <h3 className="text-sm xs:text-md sm:text-lg md:text-xl lg:text-2xl text-orange-950 font-semibold font-instrument-sans py-4 md:py-8 px-5 md:px-6">
-            Nothing Added.
+            Nothing Extra.
             <br /> Nothing
             <br />
             Artificial
