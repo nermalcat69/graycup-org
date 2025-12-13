@@ -4,7 +4,7 @@ export function CoffeeSection() {
   return (
     <div>
       <div className="flex flex-row  max-w-fit ">
-        <div className="flex flex-row xs:rounded-l-2xl bg-orange-200">
+        <div className="flex flex-row rounded-none sm:rounded-l-2xl bg-orange-200">
           <h3 className="text-sm xs:text-md sm:text-lg md:text-xl lg:text-4xl text-orange-950 text-nowrap font-semibold font-instrument-sans py-4 md:py-8 px-3 md:px-6">
             Coffee Beans <br /> from Different <br /> Regions
           </h3>
@@ -15,7 +15,7 @@ export function CoffeeSection() {
             <br /> Everyone
           </h3>
         </div>
-        <div className="flex flex-row xs:rounded-tr-2xl z-30 bg-fuchsia-200">
+        <div className="flex flex-row sm:rounded-tr-2xl z-30 bg-fuchsia-200">
           <h3 className="text-sm xs:text-md sm:text-lg md:text-xl lg:text-4xl text-orange-950 font-semibold font-instrument-sans py-4 md:py-8 px-3 md:px-6">
             Great Coffee <br /> shouldn't be
             <br />
@@ -42,7 +42,7 @@ export function CoffeeSection() {
           height="70"
         />
 
-        <div className="flex flex-row xs:rounded-bl-2xl bg-yellow-200 z-30">
+        <div className="flex flex-row sm:rounded-bl-2xl bg-yellow-200 z-30">
           <h3 className="text-sm xs:text-md sm:text-lg md:text-xl lg:text-4xl text-orange-950 text-nowrap font-semibold font-instrument-sans py-4 md:py-8 px-3 md:px-6">
             Single Origin
             <br /> and <br />
@@ -55,7 +55,7 @@ export function CoffeeSection() {
             Consistency
           </h3>
         </div>
-        <div className="flex flex-row xs:rounded-r-2xl bg-green-200 z-30">
+        <div className="flex flex-row sm:rounded-r-2xl bg-green-200 z-30">
           <h3 className="text-sm xs:text-md sm:text-lg md:text-xl lg:text-4xl text-orange-950 font-semibold font-instrument-sans py-4 md:py-8 px-3 md:px-6">
             Nothing Added.
             <br /> Nothing
