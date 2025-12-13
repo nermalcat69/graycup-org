@@ -44,6 +44,8 @@ export default function AboutPage() {
         <div>
           <p>
             <span className="font-semibold">Legal Name</span>: Gray Cup Enterprises Private Limited
+            <br />
+            <span className="font-semibold">Country</span>: India/Bharat
             <br/>
             <span className="font-semibold">Incorporation Date</span>: 7th November, 2025
             <br/>
