@@ -142,6 +142,7 @@ export function Navbar() {
             {/* Sign-in always visible outside the app */}
             <a
               href="https://graycup.in/"
+              className="inline-block max-sm:hidden"
               target="_blank"
               rel="dofollow noopener"
               id="sign-in-link"
