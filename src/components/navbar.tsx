@@ -38,7 +38,7 @@ export function Navbar() {
     <>
       {/* ================= NAVBAR ================= */}
       <header className="w-full border-b border-neutral-200 bg-white">
-        <div className="mx-auto flex h-14 max-w-7xl items-center justify-between px-4 lg:px-6">
+        <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 lg:px-6">
           {/* LEFT */}
           <div className="flex items-center gap-6">
             <Link href="/" className="flex items-center gap-3">
