@@ -53,6 +53,7 @@ export function Navbar() {
                 Gray Cup
               </span>
             </Link>
+            <p className="opacity-20">|</p>
 
             {/* Tablet-visible links */}
             <nav className="hidden md:flex gap-1 text-sm font-medium">
@@ -65,7 +66,7 @@ export function Navbar() {
                 <Link
                   key={href}
                   href={href}
-                  className="rounded-md px-3 py-2 hover:bg-neutral-100"
+                  className="rounded-md px-2 py-2 hover:bg-neutral-100"
                 >
                   {label}
                 </Link>
@@ -73,7 +74,8 @@ export function Navbar() {
             </nav>
 
             {/* Desktop-only links */}
-            <nav className="hidden lg:flex gap-1 text-sm font-medium">
+            <p className="opacity-20 hidden lg:block">|</p>
+            <nav className="hidden lg:flex text-sm font-medium">
               {[
                 ["Social Responsibility", "/social-responsibility"],
                 ["Careers", "/careers"],
@@ -81,7 +83,7 @@ export function Navbar() {
                 <Link
                   key={href}
                   href={href}
-                  className="rounded-md px-3 py-2 hover:bg-neutral-100"
+                  className="rounded-md px-2 py-2 hover:bg-neutral-100"
                 >
                   {label}
                 </Link>
@@ -158,7 +160,7 @@ export function Navbar() {
         `}
         >
           <button
-            className="mb-4 self-end rounded-md p-2 hover:bg-neutral-100"
+            className="mb-4 self-end rounded-md cursor-pointer p-2 hover:bg-neutral-100"
             onClick={() => setMenuOpen(false)}
             aria-label="Close menu"
           >
@@ -179,7 +181,7 @@ export function Navbar() {
                 key={href}
                 href={href}
                 onClick={() => setMenuOpen(false)}
-                className="rounded-md px-3 py-2 hover:bg-neutral-100"
+                className="rounded-md px-2 py-2 hover:bg-neutral-100"
               >
                 {label}
               </Link>
