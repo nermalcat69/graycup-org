@@ -8,32 +8,6 @@ import { Button } from "@/components/ui/button";
 export function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
-  /* Keyboard shortcut (B → Visit Store) */
-  useEffect(() => {
-    const handleKeyPress = (e: KeyboardEvent) => {
-      if (
-        e.key.toLowerCase() === "b" &&
-        !e.ctrlKey &&
-        !e.metaKey &&
-        !e.altKey
-      ) {
-        const el = document.activeElement as HTMLElement;
-        if (
-          el?.tagName === "INPUT" ||
-          el?.tagName === "TEXTAREA" ||
-          el?.contentEditable === "true"
-        )
-          return;
-
-        e.preventDefault();
-        document.getElementById("store-link")?.click();
-      }
-    };
-
-    document.addEventListener("keydown", handleKeyPress);
-    return () => document.removeEventListener("keydown", handleKeyPress);
-  }, []);
-
   return (
     <>
       {/* ================= NAVBAR ================= */}
@@ -109,9 +83,6 @@ export function Navbar() {
             >
               <Button variant="blue" size="sm">
                 Visit Store
-                <kbd className="ml-2 rounded border border-neutral-700 bg-neutral-800 px-1.5 py-0.5 text-[11px]">
-                  B
-                </kbd>
               </Button>
             </a>
 
