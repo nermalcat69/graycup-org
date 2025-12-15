@@ -140,6 +140,7 @@ export default function Home() {
           Our products will be available soon at
         </h2>
         <div className="mt-5 mb-20 flex flex-wrap gap-8">
+        <a href="https://amazon.in/" target="_blank">
           <Image
             src="/available/amazon.svg"
             alt="available on amazon"
@@ -147,13 +148,17 @@ export default function Home() {
             height={100}
             width={100}
           />
+          </a>
+          <a href="https://www.flipkart.com/" target="_bank">
           <Image
             src="/available/flipkart.svg"
-            alt="available on amazon"
+            alt="available on flipkart"
             className="pb-3.5 max-w-full"
             height={140}
             width={140}
           />
+          </a>
+          <a href="https://gem.gov.in/" target="_blank">
           <Image
             src="/available/gem.svg"
             alt="available on amazon"
@@ -161,6 +166,8 @@ export default function Home() {
             height={130}
             width={130}
           />
+          </a>
+          <a href="https://www.indiamart.com/gray-cup-enterprises/" target="_blank">
           <Image
             src="/available/indiamart.svg"
             alt="available on amazon"
@@ -168,27 +175,26 @@ export default function Home() {
             height={65}
             width={65}
           />
+          </a>
+          <a href="https://www.meesho.com/" target="_blank">
           <Image
             src="/available/meesho.svg"
-            alt="available on amazon"
+            alt="available on meesho"
             className="pb-3.5 max-w-full"
             height={140}
             width={140}
           />
-          <Image
-            src="/available/tata-cliq.svg"
-            alt="available on amazon"
-            className="pb-2 max-w-full"
-            height={60}
-            width={60}
-          />
+          </a>
+          <a href="https://www.ondc.org/" target="_blank">
           <Image
             src="/available/ondc.svg"
-            alt="available on amazon"
+            alt="available on ondc platformms"
             className="pb-2.5 max-w-full"
             height={110}
             width={110}
           />
+        </a>
+        <a href="https://www.vishalmegamart.com/" target="_blank">
           <Image
             src="/available/vishal-mart.svg"
             alt="available on amazon"
@@ -196,34 +202,52 @@ export default function Home() {
             height={130}
             width={130}
           />
+          </a>
+          <a href="https://relianceretail.com/reliance-fresh.html/" target="_blank">
           <Image
             src="/available/reliance-fresh.svg"
-            alt="available on amazon"
+            alt="available at reliance fresh stores"
             className="pb-4 max-w-full"
             height={140}
             width={140}
           />
+          </a>
+          <a href="https://www.tradeindia.com/" target="_blank">
           <Image
             src="/available/trade-india.svg"
-            alt="available on amazon"
-            className=" max-w-full"
+            alt="available on trade india"
+            className="max-w-full"
             height={70}
             width={70}
           />
+          </a>
+          <a href="https://www.dmartindia.com/" target="_blank">
           <Image
             src="/available/d-mart.svg"
-            alt="available on amazon"
+            alt="available at d mart stores"
             className=" max-w-full"
             height={100}
             width={100}
           />
+          </a>
+                    <a href="https://www.jiomart.com/" target="_blank">
           <Image
             src="/available/jio-mart.svg"
-            alt="available on amazon"
+            alt="available on jio mart"
             className=" max-w-full"
             height={50}
             width={50}
           />
+          </a>
+          <a href="https://www.industrybuying.com/" target="_blank">
+          <Image
+            src="/available/industrybuying.svg"
+            alt="available on industrybuying"
+            className=" max-w-full"
+            height={150}
+            width={150}
+          />
+          </a>
         </div>
       </div>
     </div>
