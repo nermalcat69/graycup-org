@@ -89,6 +89,15 @@ export default function Footer() {
                     Reddit
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    href="https://status.graycup.org/"
+                    target="_blank"
+                    className="text-muted-foreground hover:text-foreground transition-colors"
+                  >
+                    Status Page
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
