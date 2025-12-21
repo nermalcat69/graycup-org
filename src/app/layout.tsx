@@ -45,9 +45,10 @@ export const metadata: Metadata = {
   title: "Gray Cup",
   description: "We provide better customer experience with knowledgebase",
   icons: {
-    icon: "/favicon.png",
-    shortcut: "/favicon.png",
-    apple: "/favicon.png",
+    icon: "/icon.svg",
+    href: "/icon.svg",
+    shortcut: "/icon.svg",
+    apple: "/icon.svg",
   },
   openGraph: {
     title: "Gray Cup",
