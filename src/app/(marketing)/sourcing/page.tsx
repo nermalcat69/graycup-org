@@ -74,7 +74,7 @@ export default function SourcingPage() {
               rel="noopener noreferrer"
               className="inline-block text-sm font-medium text-blue-700 underline underline-offset-2"
             >
-              Contact Swiss Pac →
+              Contact Swiss Pac
             </a>
           </div>
         </section>

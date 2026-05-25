@@ -17,7 +17,7 @@ export default function SitesPage() {
         <h1 className="text-4xl font-bold text-gray-900">Our Sites</h1>
         <p className="mt-4 max-w-3xl text-lg text-gray-600">
           GrayCup operates a group of informational websites focused on
-          different aspects of tea — from bulk chai usage to CTC grading and
+          different aspects of tea, from bulk chai usage to CTC grading and
           loose-leaf tea education. All sites listed below are owned and
           operated by GrayCup.
         </p>
@@ -38,7 +38,7 @@ export default function SitesPage() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Visit bulkchai.com →
+            Visit bulkchai.com
           </Link>
         </div>
 
@@ -46,7 +46,7 @@ export default function SitesPage() {
         <div className="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
           <h2 className="text-lg font-semibold text-gray-900">BulkCTC</h2>
           <p className="mt-2 text-sm text-gray-600 leading-relaxed">
-            Dedicated to explaining CTC tea — grades, particle size, colour
+            Dedicated to explaining CTC tea: grades, particle size, colour
             output, and consistency in bulk chai preparation.
           </p>
           <Link
@@ -55,7 +55,7 @@ export default function SitesPage() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Visit bulkctc.com →
+            Visit bulkctc.com
           </Link>
         </div>
 
@@ -63,8 +63,8 @@ export default function SitesPage() {
         <div className="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
           <h2 className="text-lg font-semibold text-gray-900">PureCha</h2>
           <p className="mt-2 text-sm text-gray-600 leading-relaxed">
-            Loose-leaf and orthodox tea education — purity, processing methods,
-            and leaf quality explained.
+            Loose-leaf and orthodox tea education covering purity, processing
+            methods, and leaf quality.
           </p>
           <Link
             href="https://purecha.in"
@@ -72,7 +72,7 @@ export default function SitesPage() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Visit purecha.in →
+            Visit purecha.in
           </Link>
         </div>
 
@@ -89,7 +89,58 @@ export default function SitesPage() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Visit grayfarms.in →
+            Visit grayfarms.in
+          </Link>
+        </div>
+
+        {/* OdishaCoffee Card */}
+        <div className="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+          <h2 className="text-lg font-semibold text-gray-900">Odisha Coffee</h2>
+          <p className="mt-2 text-sm text-gray-600 leading-relaxed">
+            Dedicated to coffee grown in Odisha: origin stories, farm
+            profiles, and the region's emerging specialty coffee scene.
+          </p>
+          <Link
+            href="https://odishacoffee.com"
+            className="mt-4 inline-block text-sm font-medium text-primary-600 hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Visit odishacoffee.com
+          </Link>
+        </div>
+
+        {/* BulkGreenCoffee Card */}
+        <div className="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+          <h2 className="text-lg font-semibold text-gray-900">Bulk Green Coffee</h2>
+          <p className="mt-2 text-sm text-gray-600 leading-relaxed">
+            Informational resource on sourcing and buying green coffee in bulk,
+            covering grades, processing methods, and supply chain basics.
+          </p>
+          <Link
+            href="https://bulkgreencoffee.com"
+            className="mt-4 inline-block text-sm font-medium text-primary-600 hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Visit bulkgreencoffee.com
+          </Link>
+        </div>
+
+        {/* GrayBulk Card */}
+        <div className="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+          <h2 className="text-lg font-semibold text-gray-900">GrayBulk</h2>
+          <p className="mt-2 text-sm text-gray-600 leading-relaxed">
+            GrayCup's bulk sourcing platform connecting buyers with
+            large-volume tea and coffee suppliers across India.
+          </p>
+          <Link
+            href="https://graybulk.com"
+            className="mt-4 inline-block text-sm font-medium text-primary-600 hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Visit graybulk.com
           </Link>
         </div>
       </section>
