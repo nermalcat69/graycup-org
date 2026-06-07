@@ -137,23 +137,6 @@ export default async function NewsroomPostPage({
         </div>
       </article>
 
-      {/* Article Footer */}
-      <footer className="mt-16 pt-8 border-t">
-        <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-6">
-          <div>
-            <h3 className="font-semibold mb-2">Enjoyed this article?</h3>
-            <p className="text-muted-foreground text-sm">
-              Share it with your network or subscribe for more insights.
-            </p>
-          </div>
-          <div className="flex gap-3">
-            <Link href="/contact">
-              <Button size="sm">Subscribe</Button>
-            </Link>
-          </div>
-        </div>
-      </footer>
-
     </div>
   );
 }
