@@ -60,6 +60,18 @@ export default function AboutPage() {
             Other Sites
           </h3>
           <p>
+            <span className="font-semibold">Main Website</span>:{" "}
+            <a href="https://graycup.com" className="link" target="_blank" rel="noopener noreferrer">
+              graycup.com
+            </a>
+          </p>
+          <p>
+            <span className="font-semibold">Company Information</span>:{" "}
+            <a href="https://graycup.org" className="link" target="_blank" rel="noopener noreferrer">
+              graycup.org
+            </a>
+          </p>
+          <p>
             <span className="font-semibold">Online Store for Consumers</span>:{" "}
             <a href="https://graycup.in/" className="link" target="_blank">
               graycup.in

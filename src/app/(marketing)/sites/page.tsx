@@ -25,6 +25,40 @@ export default function SitesPage() {
 
       {/* Cards Grid */}
       <section className="grid gap-6 md:grid-cols-3">
+        {/* GrayCup Main Card */}
+        <div className="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+          <h2 className="text-lg font-semibold text-gray-900">GrayCup</h2>
+          <p className="mt-2 text-sm text-gray-600 leading-relaxed">
+            The main website for Gray Cup: products, sourcing, exports, and
+            everything we do with tea, coffee, and spices.
+          </p>
+          <Link
+            href="https://graycup.com"
+            className="mt-4 inline-block text-sm font-medium text-primary-600 hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Visit graycup.com
+          </Link>
+        </div>
+
+        {/* GrayCup Org Card */}
+        <div className="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+          <h2 className="text-lg font-semibold text-gray-900">GrayCup.org</h2>
+          <p className="mt-2 text-sm text-gray-600 leading-relaxed">
+            Company information website for Gray Cup Enterprises, covering
+            registration details, leadership, and corporate disclosures.
+          </p>
+          <Link
+            href="https://graycup.org"
+            className="mt-4 inline-block text-sm font-medium text-primary-600 hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Visit graycup.org
+          </Link>
+        </div>
+
         {/* BulkChai Card */}
         <div className="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
           <h2 className="text-lg font-semibold text-gray-900">BulkChai</h2>
