@@ -25,7 +25,7 @@ export default function Impressum() {
             <strong>Legal Name:</strong> Gray Cup Enterprises Private Limited
           </p>
           <p>
-            <strong>Registered Address:</strong> FF122, Rodeo Drive Mall, GT Road, TDI City, Kundli, Sonipat, Haryana, 131030
+            <strong>Company Address:</strong> Harsha Bhawan, 4th Floor, 13/29 E- Block, Connaught Place, New Delhi - 110001
           </p>
           <p>
             <strong>Country:</strong> India / Bharat
@@ -51,6 +51,9 @@ export default function Impressum() {
             <code className="bg-neutral-100 px-2 py-1 rounded text-sm">
               06AAMCG4985H1Z4
             </code>
+          </p>
+          <p>
+            <strong>GST Address:</strong> FF122, Rodeo Drive Mall, GT Road, TDI City, Kundli, Sonipat, Haryana - 131030
           </p>
         </div>
 
