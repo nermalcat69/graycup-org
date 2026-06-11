@@ -65,8 +65,7 @@ export default function Footer() {
             India under the Companies Act, 2013. Corporate Identification Number
             (CIN):{" "}
             <span className="whitespace-nowrap">U47211DL2025PTC457808</span>.
-            Registered Address: FF122, Rodeo Drive Mall, GT Road, TDI City,
-            Kundli, Sonipat, Haryana, 131030.
+            Company Address: Harsha Bhawan, 4th Floor, 13/29 E- Block, Connaught Place, New Delhi - 110001
           </p>
 
           <p>
