@@ -38,7 +38,7 @@ export default function SitesPage() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Visit graycup.com
+            Shop at GrayCup
           </Link>
         </div>
 
@@ -55,7 +55,7 @@ export default function SitesPage() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Visit graycup.org
+            About Gray Cup
           </Link>
         </div>
 
@@ -72,7 +72,7 @@ export default function SitesPage() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Visit bulkchai.com
+            Buy Bulk Chai
           </Link>
         </div>
 
@@ -89,7 +89,7 @@ export default function SitesPage() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Visit bulkctc.com
+            Buy Bulk CTC Tea
           </Link>
         </div>
 
@@ -106,7 +106,7 @@ export default function SitesPage() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Visit purecha.in
+            Explore PureCha
           </Link>
         </div>
 
@@ -123,7 +123,7 @@ export default function SitesPage() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Visit grayfarms.in
+            Browse Gray Farms
           </Link>
         </div>
 
@@ -140,7 +140,7 @@ export default function SitesPage() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Visit odishacoffee.com
+            Explore Odisha Coffee
           </Link>
         </div>
 
@@ -157,7 +157,7 @@ export default function SitesPage() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Visit bulkgreencoffee.com
+            Buy Bulk Green Coffee
           </Link>
         </div>
 
@@ -174,7 +174,7 @@ export default function SitesPage() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Visit graybulk.com
+            Source at GrayBulk
           </Link>
         </div>
       </section>
