@@ -165,8 +165,8 @@ export default function SitesPage() {
         <div className="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
           <h2 className="text-lg font-semibold text-gray-900">GrayBulk</h2>
           <p className="mt-2 text-sm text-gray-600 leading-relaxed">
-            GrayCup's bulk sourcing platform connecting buyers with
-            large-volume tea and coffee suppliers across India.
+            A marketplace to buy machines and commodities in bulk directly from
+            manufacturers and wholesalers, for businesses sourcing at scale.
           </p>
           <Link
             href="https://graybulk.com"
