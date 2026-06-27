@@ -103,6 +103,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <meta name="p:domain_verify" content="263c83126f8d79bccabc00711d8d80c6" />
+      <meta name="facebook-domain-verification" content="z7occf9xn1kmsujcrdxa4ijm4jybun" />
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased",
