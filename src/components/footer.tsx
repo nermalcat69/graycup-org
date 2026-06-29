@@ -23,6 +23,7 @@ export default function Footer() {
     { href: "https://status.graycup.org/", label: "Status" },
     { href: "/sites", label: "Our Sites" },
     { href: "/future-of-coffee", label: "Future of Coffee" },
+    { href: "/glossary", label: "Glossary" },
     { href: "/sitemap.xml", label: "Sitemap" },
   ];
 
