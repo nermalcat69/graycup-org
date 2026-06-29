@@ -1,0 +1,36 @@
+/* TEAM */
+
+Name: Arjun Aditya
+Role: Director & Developer
+Site: https://arjunaditya.xyz
+GitHub: https://github.com/nermalcat69
+Twitter: @arjunaditya_
+LinkedIn: https://www.linkedin.com/in/nermalcat69/
+Instagram: @arjun_sustains
+Email: arjunaditya [at] icloud [dot] com
+Location: India
+
+
+/* SITE */
+
+Name: Gray Cup Enterprises Private Limited
+Site: https://graycup.org
+Description: Company information website for Gray Cup, a global sourcer and retailer of tea, coffee, and spices.
+Last update: 2026/06/29
+Language: English
+Standards: HTML5, CSS3
+Components: React 19, Next.js 15, TypeScript, Tailwind CSS 4, Radix UI, Framer Motion
+Backend: Supabase, better-auth
+Analytics: Vercel Analytics
+Package manager: Bun
+Doctype: HTML5
+
+
+/* THANKS */
+
+Vercel (hosting)
+Supabase (database)
+Radix UI (accessible components)
+shadcn/ui (component primitives)
+Framer Motion (animations)
+Lucide (icons)
