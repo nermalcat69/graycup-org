@@ -178,6 +178,24 @@ export default function SitesPage() {
           </Link>
         </div>
 
+        {/* Indian Roasted Coffee Card */}
+        <div className="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+          <h2 className="text-lg font-semibold text-gray-900">Indian Roasted Coffee</h2>
+          <p className="mt-2 text-sm text-gray-600 leading-relaxed">
+            Single-origin Indian coffee, roasted to order and shipped within
+            48 hours, sourced from Coorg, Chikmagalur, Wayanad, the Nilgiris,
+            Koraput, and other Indian growing regions.
+          </p>
+          <Link
+            href="https://indianroastedcoffee.com"
+            className="mt-4 inline-block text-sm font-medium text-primary-600 hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Explore Indian Roasted Coffee
+          </Link>
+        </div>
+
         {/* GrayBulk Card */}
         <div className="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
           <h2 className="text-lg font-semibold text-gray-900">GrayBulk</h2>
