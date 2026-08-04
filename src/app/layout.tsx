@@ -104,6 +104,23 @@ export default function RootLayout({
     <html lang="en">
       <meta name="p:domain_verify" content="263c83126f8d79bccabc00711d8d80c6" />
       <meta name="facebook-domain-verification" content="z7occf9xn1kmsujcrdxa4ijm4jybun" />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "@id": "https://graycup.in/#organization",
+            name: "Gray Cup",
+            url: "https://graycup.in",
+            logo: "https://graycup.in/logo.png",
+            sameAs: [
+              "https://www.instagram.com/thegraycup",
+              "https://www.linkedin.com/company/gray-cup",
+            ],
+          }),
+        }}
+      />
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased",
