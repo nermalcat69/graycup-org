@@ -2,6 +2,7 @@ import type { NextConfig } from "next";
 import createMDX from "@next/mdx";
 import remarkGfm from "remark-gfm";
 import rehypeHighlight from "rehype-highlight";
+import { initOpenNextCloudflareForDev } from "@opennextjs/cloudflare";
 
 const nextConfig: NextConfig = {
   pageExtensions: ["js", "jsx", "md", "mdx", "ts", "tsx"],
@@ -15,3 +16,5 @@ const withMDX = createMDX({
 });
 
 export default withMDX(nextConfig);
+
+initOpenNextCloudflareForDev();

@@ -1,8 +1,9 @@
 export async function POST(req: Request) {
   try {
-    const body = await req.json().catch(() => null);
+    const body: unknown = await req.json().catch(() => null);
+    const urlList = (body as { urlList?: unknown } | null)?.urlList;
     const urls: string[] =
-      Array.isArray(body) ? body : Array.isArray(body?.urlList) ? body.urlList : [];
+      Array.isArray(body) ? body : Array.isArray(urlList) ? urlList : [];
 
     if (!urls || !Array.isArray(urls) || urls.length === 0) {
       return Response.json({ error: "Invalid url list" }, { status: 400 });
