@@ -212,6 +212,39 @@ export default function SitesPage() {
             Source at GrayBulk
           </Link>
         </div>
+        {/* Enterprised Card */}
+        <div className="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+          <h2 className="text-lg font-semibold text-gray-900">Enterprised</h2>
+          <p className="mt-2 text-sm text-gray-600 leading-relaxed">
+            A website builder for creating functional, secure, and
+            SEO-friendly websites in minutes.
+          </p>
+          <Link
+            href="https://enterprised.app"
+            className="mt-4 inline-block text-sm font-medium text-primary-600 hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Explore Enterprised
+          </Link>
+        </div>
+
+        {/* IndianSold Card */}
+        <div className="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+          <h2 className="text-lg font-semibold text-gray-900">IndianSold</h2>
+          <p className="mt-2 text-sm text-gray-600 leading-relaxed">
+            A leads platform and directory that helps businesses find leads
+            for their products across India.
+          </p>
+          <Link
+            href="https://indiansold.com"
+            className="mt-4 inline-block text-sm font-medium text-primary-600 hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Explore IndianSold
+          </Link>
+        </div>
       </section>
 
       {/* Ownership Note */}
